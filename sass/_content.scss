@@ -1,0 +1,85 @@
+.content {
+    padding-left: 140px;
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    padding-bottom: 100px;
+    .content__texts {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .content__title {
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 51px;
+            color: #fff;
+        }
+        .content__desc {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #fff;
+        }
+    }
+    .content__cards {
+        display: flex;
+        gap: 32px; 
+        .content__card {
+            width: 348px;
+            height: 359px;
+            background-color: #fff;
+            border-radius: 5px; 
+            transition: all 0.3s ease-out;
+            &:hover {
+                transform: scale(1.1);
+                box-shadow: 2px 5px 10px 2px #333d41;
+            }
+            &:hover .content__card__h {
+                color: #02897A;
+            }
+            
+            .content__card__img {
+                width: 100%;  
+            }
+            .content__card__texts {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                margin: 24px;
+                .content__card__p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                   
+                }
+                .content__card__h {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 40px;
+                    width: 294px;
+                    transition: all 0.3s ease-out;
+                    
+                }
+            }
+        }
+    }
+    .content__slide__dots {
+        display: flex;
+        align-items: center;
+        padding-left: 500px;
+        padding-top: 50px;
+        gap: 10px;
+        .content__slide__dot, .content__slide__dottwo {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+        }
+        .content__slide__dot {
+            background-color: #fff;
+        }
+        .content__slide__dottwo {
+            background-color: #02897A;
+        }
+    }
+}

@@ -1,0 +1,112 @@
+.process {
+  width: 100%;
+  padding-top: 170px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-position: center;
+  background-image: url(../imgs/process\ bg\ img.svg);
+  .process__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    .process__box__info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      .process__box__info_h {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        align-items: center;
+        color: #fff;
+      }
+      .process__box__info_p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        width: 542px;
+        height: 52px;
+        color: #fff;
+      }
+    }
+    .process__box__comments {
+      display: flex;
+      gap: 178px;
+      .process__box__comments__left {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        .process__box__comments__left__comment {
+          display: flex;
+          align-items: center;
+          gap: 16px;
+          .process__box__comments__left__comment__sms {
+            width: 274px;
+            height: 53px;
+            background-color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 30px;
+            position: relative;
+            .process__box__comments__sms__dotone {
+              width: 17px;
+              height: 17px;
+              background-color: #fff;
+              border-radius: 50%;
+              position: absolute;
+              bottom: -7px;
+              left: 40px;
+            }
+            .process__box__comments__sms__dottwo {
+              width: 9px;
+              height: 9px;
+              background-color: #fff;
+              border-radius: 50%;
+              position: absolute;
+              bottom: -20px;
+              left: 25px;
+            }
+            .process__box__comments__sms__dotthree {
+                width: 17px;
+                height: 17px;
+                background-color: #fff;
+                border-radius: 50%;
+                position: absolute;
+                bottom: -7px;
+                right: 40px;
+            }
+            .process__box__comments__sms__dotfour {
+                width: 9px;
+                height: 9px;
+                background-color: #fff;
+                border-radius: 50%;
+                position: absolute;
+                bottom: -20px;
+                right: 25px;
+            }
+           
+          }
+          
+        }
+        
+      }
+    }
+    .process__btn {
+        width: 216px;
+        height: 53px;
+        background-color: #02897A;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        border: none;
+    }
+  }
+}

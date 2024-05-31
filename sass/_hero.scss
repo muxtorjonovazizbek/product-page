@@ -1,0 +1,62 @@
+@import "./variable";
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+  padding-left: 100px;
+  gap: 50px;
+
+  .hero__left {
+    width: 518px;
+    height: 331px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .hero__left__h {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 60px;
+      color: #fff;
+    }
+    .hero__left__p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      color: #fff;
+    }
+    .hero__left__btns {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+      .hero__left__btns__btn {
+        width: 175px;
+        height: 53px;
+        background-color: $btncolor;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+      }
+      .hero__left__btns__link {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        color: $btncolor;
+        a {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          color: $btncolor;
+          text-decoration: underline;
+        }
+      }
+    }
+    .hero__right {
+      width: 600px;
+      height: 555px;
+    }
+  }
+}
