@@ -1,0 +1,42 @@
+.join {
+    display: flex;
+    gap: 15px;
+    width: 968px;
+    height: 345px;
+    background-color: #02897A;
+    border-radius: 32px;
+    margin-top: 350px;
+    padding: 0px 50px;
+    align-items: center;
+    .join__box {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .join__box__h {
+            width: 510px;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 48px;
+            color: #fff;
+            padding-bottom: 15px;
+        }
+        .join__box__btn {
+            width: 155px;
+            height: 50px;
+            background-color: #fff;
+            color: #22343D;
+            padding: 10px 35px;
+            border:none;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+            &:hover {
+               transform: scale(1.1);
+                
+            }
+        }
+    }
+}

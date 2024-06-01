@@ -1,0 +1,88 @@
+.ask {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 152px;
+    .ask__top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        .ask__top__h {
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 51px;
+            color: #fff;
+        }
+        .ask__top__p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #fff;
+        }
+    }
+    .ask__bottom {
+        width: 920px;
+        height: 332px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .ask__bottom__inner {
+            width: 920px;
+            padding-bottom: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            width: 100%;  
+            border-bottom: 1px solid #474747;
+
+            .ask__bottom__inner__icon {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-left: 2px;
+                padding-top: 1px;
+                width: 24px;
+                height: 24px;
+                color: #fff;
+                cursor: pointer;
+                border: none;
+                background-color: #02897A;
+                border-radius: 50%;
+                transition: all 0.2s ease-out;
+                &:hover {
+                    background-color: #fff;
+                    color: #02897A;
+                }
+                .icon, .icon2, .icon3, .icon4 {
+                    font-size: 30px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    text-align: center;
+                }
+                
+            }
+            .ask__bottom__inner__desc {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 27px;
+                color: #fff;
+            }
+            .ask__bottom__inner__cover {
+                display: flex;
+                gap: 10px;
+            }
+            .ask__bottom__inner__bp {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+            }
+        }
+        .text, .text2, .text3, .text4{
+            color: #fff;
+        }
+    }
+}

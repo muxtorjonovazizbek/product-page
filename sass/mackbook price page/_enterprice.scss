@@ -1,0 +1,50 @@
+.enterprise {
+    background-color: #22343D;
+    width: 100%;
+    margin-top: 150px;
+    padding-bottom: 50px;
+    .enterprise__cover {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 53px;
+        .enterprise__cover__fp {
+            font-weight: 600;
+            font-size: 22px;
+            line-height: 27px;
+            color: #fff;
+        }
+        .enterprise__cover__h {
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 51px;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .enterprise__cover__sp {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #fff;
+            margin-top: 8px;
+        }
+        .enterprise__cover__btn {
+            width: 224px;
+            height: 44px;
+            border-radius: 8px;
+            background-color: #02897A;
+            border: none;
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 21px;
+            color: #fff;
+            margin-top: 40px;
+            cursor: pointer;
+            transition: all 0.3s ease-out;
+            &:hover {
+                background-color: white;
+                color: #02897A;
+            }
+        }
+    }
+}
